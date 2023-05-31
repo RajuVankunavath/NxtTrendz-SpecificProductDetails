@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.similar-items-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-items-container {
+    width: 300px;
+  }
+}
+.sim-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.rating-rate-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.star-count-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #3b82f6;
+  border-radius: 8px;
+  width: 100px;
+  height: 45px;
+}
+.star-logo {
+  width: 30px;
+}
+.star-rating {
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 500;
+}
+.title-heading {
+  font-size: 20px;
+}

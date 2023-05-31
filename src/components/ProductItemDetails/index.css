@@ -1,0 +1,149 @@
+/* Write your CSS here */
+
+.product-items-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.product-main-item-container {
+  width: 90%;
+  padding-bottom: 20px;
+}
+
+.product-items-image {
+  width: 100%;
+  border-radius: 10px;
+}
+.heading {
+  margin-top: 0px;
+}
+.price {
+  color: #171f46;
+  font-size: 30px;
+}
+.description {
+  color: #616e7c;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.review-star-container {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.star-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #3b82f6;
+  border-radius: 8px;
+  width: 100px;
+  margin-right: 18px;
+}
+.rating {
+  color: #ffffff;
+
+  font-weight: bold;
+  align-content: center;
+}
+.star-logo {
+  width: 40px;
+}
+.items-container {
+  border-bottom: 2px solid #cbced2;
+}
+
+@media screen and (min-width: 768px) {
+  .product-main-item-container {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .product-items-image {
+    width: 40%;
+    margin-right: 40px;
+  }
+}
+.minus-plus-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+}
+.add-button {
+  width: 140px;
+  border: none;
+  border-radius: 6px;
+  height: 40px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.button-plus {
+  background-color: transparent;
+  border: none;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.count {
+  color: #171f46;
+  font-size: 30px;
+  font-weight: bold;
+}
+.failure-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.failure-logo {
+  width: 40%;
+}
+.failure-heading {
+  margin-top: 30px;
+  font-size: 40px;
+}
+.failure-button {
+  width: 150px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #3b82f6;
+  font-weight: 500;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 6px;
+}
+@media screen and (max-width: 767px) {
+  .similar-product-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-container {
+    width: 90%;
+  }
+}
+.similar-unordered-list-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-unordered-list-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .main-container {
+    width: 75%;
+  }
+}
